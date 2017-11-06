@@ -52,7 +52,7 @@ class Customer implements Comparable<Customer> {
     }
 }
 
-public class CustomMapClass {
+public class DupCustomer {
     
     public void printSorted(List<Customer> clist) {
         Collections.sort(clist);
@@ -76,7 +76,7 @@ public class CustomMapClass {
     }
     
     public static void main(String args[]) {
-        CustomMapClass me = new CustomMapClass();
+        DupCustomer me = new DupCustomer();
         List<Customer> list = new ArrayList<>();
         Customer a = new Customer();
         Customer b = new Customer();
